@@ -16,4 +16,3 @@ finally:
     print("finally")
 
 
-import  py_12_模块 as a

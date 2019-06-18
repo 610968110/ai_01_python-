@@ -65,3 +65,7 @@ print(map_user)
 print("-" * 25, "其他生成方式", "-" * 25)
 list_name = [i for i in range(10)]  # py2的xrange和py3的range是一样的，保存的是生成方式，而不是生成后的值
 print(list_name)
+# -------------------------- 集合 --------------------------
+print("-" * 25, "集合", "-" * 25)
+my_set = {"1", "2", "1"}
+print(my_set)
